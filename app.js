@@ -46,6 +46,16 @@ function displayMovies(movies){
     });
 }
 
+function getColor(vote_average){
+    if(vote_average >= 8)
+    return "green";
+
+    else if(vote_average >= 6)
+    return "orange";
+
+    return "red";
+}
+
 form.addEventListener("submit", (e) => {
     e.preventDefault();
 
