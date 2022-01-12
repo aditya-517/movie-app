@@ -91,6 +91,16 @@ main{
     font-weight: bold;
 }
 
+.red{
+    color: red;
+}
+.green{
+    color: rgb(8, 207, 8);
+}
+.orange{
+    color: orange;
+}
+
 .overview{
     background-color: #bbbedd;
     padding: 1rem;
