@@ -33,7 +33,7 @@ function displayMovies(movies){
         alt="">
         <div class="movie-info">
             <h3>${title}</h3>
-            <span>${vote_average}</span>
+            <span class="${getColor(vote_average)}">${vote_average}</span>
         </div>
         <div class="overview">
         <h4>Overview :</h4>
