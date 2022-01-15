@@ -126,6 +126,7 @@ main{
 
 @media screen and (max-width: 430px) {
     .movie{
+        width: 150px;
         margin: 1rem auto;
     }
     header{
@@ -134,5 +135,11 @@ main{
     .search{
         width: 70%;
         padding: 0.2rem 0.7rem;
+    }
+    .movie-info h3{
+        font-size: 0.5rem;
+    }
+    .movie-info span{
+        font-size: 0.5rem;   
     }
 }
