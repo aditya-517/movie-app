@@ -37,6 +37,7 @@ header h1{
 }
 
 .search{
+    width: 90%;
     padding: 0.5rem;
     margin-right: 1rem;
     background-color: transparent;
@@ -121,4 +122,17 @@ main{
 
 .movie:hover .overview{
     transform: translateY(0);
+}
+
+@media screen and (max-width: 430px) {
+    .movie{
+        margin: 1rem auto;
+    }
+    header{
+        flex-direction: column;
+    }
+    .search{
+        width: 70%;
+        padding: 0.2rem 0.7rem;
+    }
 }
